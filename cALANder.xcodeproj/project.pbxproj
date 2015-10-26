@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA5022C1BDDF93B000FDE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5022B1BDDF93B000FDE00 /* AppDelegate.swift */; };
+		5CA5022E1BDDF93B000FDE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5022D1BDDF93B000FDE00 /* ViewController.swift */; };
+		5CA502311BDDF93B000FDE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA5022F1BDDF93B000FDE00 /* Main.storyboard */; };
+		5CA502331BDDF93B000FDE00 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA502321BDDF93B000FDE00 /* Images.xcassets */; };
+		5CA502361BDDF93B000FDE00 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA502341BDDF93B000FDE00 /* LaunchScreen.xib */; };
+		5CA502421BDDF93C000FDE00 /* cALANderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA502411BDDF93C000FDE00 /* cALANderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA5023C1BDDF93C000FDE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA5021E1BDDF93B000FDE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA502251BDDF93B000FDE00;
+			remoteInfo = cALANder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CA502261BDDF93B000FDE00 /* cALANder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cALANder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA5022A1BDDF93B000FDE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA5022B1BDDF93B000FDE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CA5022D1BDDF93B000FDE00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CA502301BDDF93B000FDE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA502321BDDF93B000FDE00 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CA502351BDDF93B000FDE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CA5023B1BDDF93C000FDE00 /* cALANderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cALANderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA502401BDDF93C000FDE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA502411BDDF93C000FDE00 /* cALANderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cALANderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA502231BDDF93B000FDE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA502381BDDF93C000FDE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA5021D1BDDF93B000FDE00 = {
+			isa = PBXGroup;
+			children = (
+				5CA502281BDDF93B000FDE00 /* cALANder */,
+				5CA5023E1BDDF93C000FDE00 /* cALANderTests */,
+				5CA502271BDDF93B000FDE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA502271BDDF93B000FDE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA502261BDDF93B000FDE00 /* cALANder.app */,
+				5CA5023B1BDDF93C000FDE00 /* cALANderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA502281BDDF93B000FDE00 /* cALANder */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5022B1BDDF93B000FDE00 /* AppDelegate.swift */,
+				5CA5022D1BDDF93B000FDE00 /* ViewController.swift */,
+				5CA5022F1BDDF93B000FDE00 /* Main.storyboard */,
+				5CA502321BDDF93B000FDE00 /* Images.xcassets */,
+				5CA502341BDDF93B000FDE00 /* LaunchScreen.xib */,
+				5CA502291BDDF93B000FDE00 /* Supporting Files */,
+			);
+			path = cALANder;
+			sourceTree = "<group>";
+		};
+		5CA502291BDDF93B000FDE00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5022A1BDDF93B000FDE00 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CA5023E1BDDF93C000FDE00 /* cALANderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA502411BDDF93C000FDE00 /* cALANderTests.swift */,
+				5CA5023F1BDDF93C000FDE00 /* Supporting Files */,
+			);
+			path = cALANderTests;
+			sourceTree = "<group>";
+		};
+		5CA5023F1BDDF93C000FDE00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CA502401BDDF93C000FDE00 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA502251BDDF93B000FDE00 /* cALANder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA502451BDDF93C000FDE00 /* Build configuration list for PBXNativeTarget "cALANder" */;
+			buildPhases = (
+				5CA502221BDDF93B000FDE00 /* Sources */,
+				5CA502231BDDF93B000FDE00 /* Frameworks */,
+				5CA502241BDDF93B000FDE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cALANder;
+			productName = cALANder;
+			productReference = 5CA502261BDDF93B000FDE00 /* cALANder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA5023A1BDDF93C000FDE00 /* cALANderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA502481BDDF93C000FDE00 /* Build configuration list for PBXNativeTarget "cALANderTests" */;
+			buildPhases = (
+				5CA502371BDDF93C000FDE00 /* Sources */,
+				5CA502381BDDF93C000FDE00 /* Frameworks */,
+				5CA502391BDDF93C000FDE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA5023D1BDDF93C000FDE00 /* PBXTargetDependency */,
+			);
+			name = cALANderTests;
+			productName = cALANderTests;
+			productReference = 5CA5023B1BDDF93C000FDE00 /* cALANderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA5021E1BDDF93B000FDE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Alan J Sayler";
+				TargetAttributes = {
+					5CA502251BDDF93B000FDE00 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5CA5023A1BDDF93C000FDE00 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5CA502251BDDF93B000FDE00;
+					};
+				};
+			};
+			buildConfigurationList = 5CA502211BDDF93B000FDE00 /* Build configuration list for PBXProject "cALANder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA5021D1BDDF93B000FDE00;
+			productRefGroup = 5CA502271BDDF93B000FDE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA502251BDDF93B000FDE00 /* cALANder */,
+				5CA5023A1BDDF93C000FDE00 /* cALANderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA502241BDDF93B000FDE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA502311BDDF93B000FDE00 /* Main.storyboard in Resources */,
+				5CA502361BDDF93B000FDE00 /* LaunchScreen.xib in Resources */,
+				5CA502331BDDF93B000FDE00 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA502391BDDF93C000FDE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA502221BDDF93B000FDE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA5022E1BDDF93B000FDE00 /* ViewController.swift in Sources */,
+				5CA5022C1BDDF93B000FDE00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA502371BDDF93C000FDE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA502421BDDF93C000FDE00 /* cALANderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA5023D1BDDF93C000FDE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA502251BDDF93B000FDE00 /* cALANder */;
+			targetProxy = 5CA5023C1BDDF93C000FDE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA5022F1BDDF93B000FDE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA502301BDDF93B000FDE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA502341BDDF93B000FDE00 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA502351BDDF93B000FDE00 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA502431BDDF93C000FDE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA502441BDDF93C000FDE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA502461BDDF93C000FDE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cALANder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CA502471BDDF93C000FDE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cALANder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CA502491BDDF93C000FDE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cALANderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cALANder.app/cALANder";
+			};
+			name = Debug;
+		};
+		5CA5024A1BDDF93C000FDE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cALANderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cALANder.app/cALANder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA502211BDDF93B000FDE00 /* Build configuration list for PBXProject "cALANder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA502431BDDF93C000FDE00 /* Debug */,
+				5CA502441BDDF93C000FDE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA502451BDDF93C000FDE00 /* Build configuration list for PBXNativeTarget "cALANder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA502461BDDF93C000FDE00 /* Debug */,
+				5CA502471BDDF93C000FDE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CA502481BDDF93C000FDE00 /* Build configuration list for PBXNativeTarget "cALANderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA502491BDDF93C000FDE00 /* Debug */,
+				5CA5024A1BDDF93C000FDE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA5021E1BDDF93B000FDE00 /* Project object */;
+}
